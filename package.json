@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sabrinaelkins/note-task-machine/issues"
   },
-  "homepage": "https://github.com/sabrinaelkins/note-task-machine#readme"
+  "homepage": "https://github.com/sabrinaelkins/note-task-machine#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
