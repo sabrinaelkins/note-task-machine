@@ -9,7 +9,7 @@ app.use(express.static("public"))
 
 
 
-app.listien(PORT, function(){
+app.listen(PORT, function(){
     console.log(`App running on ${PORT}`)
 })
 
