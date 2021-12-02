@@ -1,0 +1,24 @@
+{
+  "name": "note-task-machine",
+  "version": "1.0.0",
+  "description": "package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrinaelkins/note-task-machine.git"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Express"
+  ],
+  "author": "Sabrina Elkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrinaelkins/note-task-machine/issues"
+  },
+  "homepage": "https://github.com/sabrinaelkins/note-task-machine#readme"
+}
