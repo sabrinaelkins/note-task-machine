@@ -19,7 +19,7 @@ router.post("/api/notes", function(req,res){
     res.json(db)
 })
 
-router.delete("/api/notes/id",function(req,res){
+router.delete("/api/notes/:id",function(req,res){
     let recentNoteList = db.filter(note => note.id != req.params.id)
     db= recentNoteList;
     fs.writeFileSync("./db/db.json", JSON.stringify(db))
